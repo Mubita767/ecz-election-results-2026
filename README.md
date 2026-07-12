@@ -1,35 +1,29 @@
 # ECZ Election Results Visualization System 2026
 
-A world-class, broadcast-quality election results visualization system for electoral commissions. Originally conceptualized for Zambia's Electoral Commission of Zambia (ECZ), this system is designed to be adaptable for any electoral body or organization requiring professional election coverage.
+A world-class, broadcast-quality election results visualization system for electoral commissions. Independently developed as a demonstration of professional election coverage capabilities. Adaptable for any electoral body or organization.
 
 ## Live Preview
 https://mubita767.github.io/ecz-election-results-2026
 
 ## Screenshots
 
-### Dashboard — Presidential Election
-![Presidential Dashboard](screenshots/presidential-dashboard.png)
+### Presidential Election Dashboard
+![Presidential Dashboard](screenshots/01-presidential-dashboard.png)
 
-### Dashboard — Parliamentary Election
-![Parliamentary Dashboard](screenshots/parliamentary-dashboard.png)
+### Parliamentary Election Dashboard
+![Parliamentary Dashboard](screenshots/02-parliamentary-dashboard.png)
 
-### Dashboard — Councilor Election
-![Councilor Dashboard](screenshots/councilor-dashboard.png)
+### Councilor Election Dashboard
+![Councilor Dashboard](screenshots/03-councilor-dashboard.png)
 
-### Dashboard — Mayoral Election
-![Mayoral Dashboard](screenshots/mayoral-dashboard.png)
-
-### Interactive Zambia Map
-![Zambia Map](screenshots/zambia-map.png)
-
-### Projection Mode — Opening Montage
-![Projection Montage](screenshots/projection-montage.png)
-
-### Projection Mode — Candidate Showcase
-![Candidate Showcase](screenshots/candidate-showcase.png)
+### Mayoral Election Dashboard
+![Mayoral Dashboard](screenshots/04-mayoral-dashboard.png)
 
 ### Control Panel
-![Control Panel](screenshots/control-panel.png)
+![Control Panel](screenshots/05-control-panel.png)
+
+### Projection Mode — Entry Screen
+![Projection Entry](screenshots/06-projection-entry.png)
 
 ## Features
 
@@ -61,7 +55,9 @@ https://mubita767.github.io/ecz-election-results-2026
 - Interactive SVG maps
 - Recharts data visualization
 
-## Election Data Structure
+## Upload Format
+
+The system accepts JSON data uploads via the Control Panel:
 
 ```json
 {
@@ -114,10 +110,6 @@ https://mubita767.github.io/ecz-election-results-2026
 }
 ```
 
-## Upload Format
-
-The system accepts JSON data uploads via the Control Panel. Use the format above to import election results from any source.
-
 ## System Architecture
 
 ```
@@ -128,7 +120,7 @@ Control Panel (/#/control) — Data upload, ticker control, screen management
 
 ## Disclaimer
 
-This system was independently developed as a demonstration of broadcast-quality election visualization capabilities. It is not an official ECZ product. The candidate names, party affiliations, and vote data used are for demonstration purposes and do not reflect actual election results. Any electoral commission or organization interested in using this system should contact the developer.
+This system was independently developed as a demonstration of broadcast-quality election visualization capabilities. It is **not** an official ECZ product. The candidate names, party affiliations, and vote data used are for demonstration purposes and do not reflect actual election results. Any electoral commission or organization interested in using this system should contact the developer.
 
 ## Developed By
 
